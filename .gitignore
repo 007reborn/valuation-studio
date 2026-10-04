@@ -1,0 +1,12 @@
+node_modules/
+shots/
+# built pages (the published public edition lives in docs/index.html)
+valuation_studio.html
+valuation_studio_public.html
+# captured data-provider responses: third-party content, kept out of the repository
+harvest/calls.json
+harvest/lib_*.json
+harvest/library_fc.json
+harvest/batch_*.md
+fixtures/
+data/

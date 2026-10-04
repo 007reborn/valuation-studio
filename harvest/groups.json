@@ -1,0 +1,20 @@
+{
+  "groups": [
+    { "id": "lib:oil-gas", "name": "Oil & gas", "cos": ["RELIANCE.NS", "ONGC.NS", "IOC.NS", "BPCL.NS", "HINDPETRO.NS"] },
+    { "id": "lib:autos", "name": "Automobiles", "cos": ["MARUTI.NS", "M&M.NS", "TMPV.NS", "HEROMOTOCO.NS", "EICHERMOT.NS", "TVSMOTOR.NS"] },
+    { "id": "lib:power", "name": "Power utilities", "cos": ["NTPC.NS", "POWERGRID.NS", "TATAPOWER.NS", "JSWENERGY.NS"] },
+    { "id": "lib:adani", "name": "Adani group", "cos": ["ADANIENT.NS", "ADANIPORTS.NS", "ADANIPOWER.NS", "ADANIGREEN.NS"] },
+    { "id": "lib:engineering", "name": "Engineering & defence", "cos": ["LT.NS", "SIEMENS.NS", "ABB.NS", "BEL.NS", "HAL.NS"] },
+    { "id": "lib:consumer", "name": "Consumer & retail", "cos": ["ITC.NS", "NESTLEIND.NS", "TITAN.NS", "DMART.NS", "TRENT.NS"] },
+    { "id": "lib:metals", "name": "Metals & mining", "cos": ["HINDALCO.NS", "VEDL.NS", "COALINDIA.NS", "NMDC.NS"] },
+    { "id": "lib:telecom", "name": "Telecom", "cos": ["BHARTIARTL.NS", "INDUSTOWER.NS", "IDEA.NS"] },
+    { "id": "lib:internet", "name": "Internet platforms", "cos": ["ETERNAL.NS", "SWIGGY.NS", "NAUKRI.NS", "NYKAA.NS", "PAYTM.NS"] },
+    { "id": "lib:hospitals", "name": "Hospitals", "cos": ["APOLLOHOSP.NS", "MAXHEALTH.NS", "FORTIS.NS"] },
+    { "id": "lib:us-tech", "name": "US big tech", "cos": ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"] },
+    { "id": "lib:us-consumer", "name": "US consumer", "cos": ["WMT", "KO", "PG", "MCD", "NKE"] },
+    { "id": "lib:global", "name": "Global leaders", "cos": ["7203.T", "005930.KS", "2330.TW", "NESN.SW", "SHEL.L", "MC.PA", "SAP.DE"] }
+  ],
+  "profiles": ["HDFCBANK.NS", "ICICIBANK.NS", "SBIN.NS", "KOTAKBANK.NS", "AXISBANK.NS", "BAJFINANCE.NS", "LICI.NS"],
+  "indices": ["^GSPC", "^N225", "^KS11", "^TWII", "^SSMI", "^FTSE", "^FCHI", "^GDAXI"],
+  "fx": ["USDINR=X", "JPYINR=X", "KRWINR=X", "TWDINR=X", "CHFINR=X", "GBPINR=X", "EURINR=X"]
+}
